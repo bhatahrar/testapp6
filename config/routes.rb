@@ -13,7 +13,7 @@ Rails.application.routes.draw do
   # root "posts#index"
 
     root "pages#home"
-    get "about", to:"about#about"
+    get "about", to:"pages#about"
     # get "about",to:"about#about"
     # root "application#hello"
 end
